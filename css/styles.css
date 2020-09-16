@@ -221,3 +221,23 @@ body {
     body.nav-active .nav__list-item:nth-child(5) {
         transition-delay: 1.2s;
     }
+
+    select {
+        width: 268px;
+        padding: 5px;
+        font-size: 16px;
+        line-height: 1;
+        border: 1px solid #aaa;
+        border-radius: 5px;
+        height: 34px;
+        background-image: url("../img/select-arrow.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        -webkit-appearance: none;
+        background-position-x: 235px;
+    }
+
+.form-section {
+    margin: 350px;
+}
